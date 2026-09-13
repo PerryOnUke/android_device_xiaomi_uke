@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from Xiaomi Pad 7 (OS3.0.301.0.WOZMIXM).
+## are from Xiaomi Pad 7 (OS3.0.303.0.WOZMIXM).
 
 # ACDBs
 odm/etc/acdbdata/Forte/Forte_acdb_cal.acdb

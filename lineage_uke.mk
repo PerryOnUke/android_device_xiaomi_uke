@@ -21,7 +21,7 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Pad 7
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="missi-user 16 BP2A.250605.031.A3 OS3.0.301.0.WOZMIXM release-keys"
+    BuildDesc="missi-user 16 BP2A.250605.031.A3 OS3.0.303.0.WOZMIXM release-keys"
 
 # Axion Device Configuration
 AXION_MAINTAINER := delano-git
