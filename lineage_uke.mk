@@ -23,13 +23,7 @@ PRODUCT_MODEL := Pad 7
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="missi-user 16 BP2A.250605.031.A3 OS3.0.303.0.WOZMIXM release-keys"
 
-# Axion Device Configuration
-AXION_MAINTAINER := delano-git
-AXION_PROCESSOR := Snapdragon®_7+_Gen_3
 
-# Camera Info
-AXION_CAMERA_REAR_INFO := 13
-AXION_CAMERA_FRONT_INFO := 8
 
 # Graphics & Display
 TARGET_ENABLE_BLUR := true
@@ -40,4 +34,15 @@ HBM_NODE := /data/vendor/display/hbm_mode
 # Features & Performance
 BYPASS_CHARGE_SUPPORTED := true
 BYPASS_CHARGE_TOGGLE_PATH ?= /sys/class/xm_power/charger/smart_charge/smart_night
-TARGET_INCLUDE_AXFX := true
+
+# Lunaris Flags
+LUNARIS_BUILD_TYPE := Community
+WITH_GMS := true
+TARGET_OPTIMIZED_DEXOPT := true
+USE_REALITY_ENGINE := true
+WITH_PIXEL_LAUNCHER := false
+TARGET_USE_WALLPAPERS := false
+TARGET_USE_MAPS := true
+TARGET_USE_FILES := true
+TARGET_USE_GPHOTOS := true
+SURFACE_FLINGER_BOOST := true

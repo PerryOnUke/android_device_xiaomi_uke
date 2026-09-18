@@ -21,3 +21,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/uke/uke-vendor.mk)
+
+$(call soong_config_set,surfaceflinger,frame_rate_category_high,120)
+$(call soong_config_set,surfaceflinger,frame_rate_category_min,60)

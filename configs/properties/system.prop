@@ -6,3 +6,6 @@ ro.radio.noril=yes
 ro.carrier=wifi-only
 hw.nophone=true
 persist.radio.multisim.config=none
+
+# maintainer
+ro.lunaris.maintainer=STE0090xXXBADRGXX
