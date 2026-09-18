@@ -11,3 +11,6 @@ persist.radio.multisim.config=none
 persist.vendor.dpm.feature=0
 persist.vendor.dpm.vndr.feature=0
 persist.vendor.dpm.vndr.halservice.enable=0
+
+# maintainer
+ro.lunaris.maintainer=STE0090

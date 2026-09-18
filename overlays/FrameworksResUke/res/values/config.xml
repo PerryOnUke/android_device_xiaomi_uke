@@ -8,4 +8,7 @@
 
     <!-- Doze: tablets should not wake up on table movement / pickup -->
     <bool name="config_dozePulsePickup">false</bool>
+
+    <!-- System Info -->
+    <integer name="config_sysCPUTempMultiplier">1000</integer>
 </resources>
