@@ -1,5 +1,3 @@
-# Updater
-lineage.updater.uri=https://raw.githubusercontent.com/roms-experimental/OTA/refs/heads/lineageos/uke.json
 
 # Telephony/Radio (Wi-Fi only tablet)
 ro.radio.noril=yes
