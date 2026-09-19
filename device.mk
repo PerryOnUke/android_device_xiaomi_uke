@@ -13,7 +13,7 @@ $(call inherit-product, device/xiaomi/sm8635-common/common.mk)
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResUke \
-    SettingsProviderResUke
+    SettingsProviderResUke \
     LineageSettingsOverlayDevice
 
 # Soong namespaces
