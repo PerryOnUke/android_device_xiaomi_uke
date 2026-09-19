@@ -16,5 +16,6 @@ clone_if_missing "https://github.com/delano-git/android_device_xiaomi_sm8635-com
 clone_if_missing "https://github.com/delano-git/android_device_xiaomi_uke-kernel" "lineage-23.2" "device/xiaomi/uke-kernel"
 clone_if_missing "https://github.com/delano-git/android_vendor_xiaomi_uke" "lineage-23.2" "vendor/xiaomi/uke"
 clone_if_missing "https://github.com/delano-git/android_vendor_xiaomi_sm8635-common" "lineage-23.2" "vendor/xiaomi/sm8635-common"
-clone_if_missing "https://github.com/SD870/hardware_xiaomi.git" "16" "hardware/xiaomi"
+clone_if_missing "https://github.com/LineageOS/android_hardware_xiaomi" "lineage-23.2" "hardware/xiaomi"
+clone_if_missing "https://github.com/AxionAOSP-devices/packages_apps_LunarisDolby" "16.0" "packages/apps/LunarisDolby"
 echo "Setup complete!"
