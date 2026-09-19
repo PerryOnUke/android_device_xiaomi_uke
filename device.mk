@@ -32,6 +32,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     FrameworksResUke \
     SettingsProviderResUke
+    LineageSettingsOverlayDevice
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
