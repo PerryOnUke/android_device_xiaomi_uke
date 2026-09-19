@@ -17,7 +17,7 @@ limitations under the License.
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lunaris_device_message">Xiaomi Pad 7</string>
-    <string name="lunaris_processor_code_message">SnapdragonÂ® 7+ Gen 3</string>
+    <string name="lunaris_processor_code_message">Snapdragon® 7+ Gen 3</string>
     <string name="lunaris_battery_type_message">8850 mAh</string>
     <string name="lunaris_screen_message">IPS LCD 144hz</string>
 </resources>
