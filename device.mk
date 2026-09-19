@@ -29,3 +29,7 @@ $(call soong_config_set,surfaceflinger,frame_rate_category_min,60)
 # Powerhint (uke-tuned, overrides QCOM pineapple default)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/power/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
+
+# Perfboostselection (uke tuning base, overrides vendor stock)
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/power/perfboostselection.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostselection.xml
