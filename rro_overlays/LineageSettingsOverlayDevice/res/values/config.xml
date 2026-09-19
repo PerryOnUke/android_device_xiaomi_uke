@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Whether to use PowerProfile as the primary source for battery design capacity -->
+    <bool name="config_use_power_profile_for_battery_capacity">true</bool>
+</resources>
