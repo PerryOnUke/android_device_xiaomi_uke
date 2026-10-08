@@ -22,6 +22,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/ax_kernel_manager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ax_kernel_manager.xml
 
+# The NT36532 has no flash: nt36532_touch downloads its firmware at probe.
+# Recovery doesn't mount /odm, so ship the firmware in its ramdisk.
+PRODUCT_COPY_FILES += \
+    $(foreach panel,csot tm, \
+        vendor/xiaomi/uke/proprietary/odm/firmware/novatek_nt36532_o82_fw_$(panel).bin:$(TARGET_COPY_OUT_RECOVERY)/root/lib/firmware/novatek_nt36532_o82_fw_$(panel).bin)
+
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResUke \
