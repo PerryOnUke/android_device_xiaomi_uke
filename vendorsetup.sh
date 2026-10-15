@@ -19,4 +19,8 @@ clone_if_missing "https://github.com/delano-git/android_vendor_xiaomi_uke"      
 clone_if_missing "https://github.com/delano-git/android_vendor_xiaomi_sm8635-common"      "lineage-23.2" "vendor/xiaomi/sm8635-common"
 clone_if_missing "https://github.com/roms-experimental/android_hardware_xiaomi"           "lineage-23.2" "hardware/xiaomi"
 clone_if_missing "https://github.com/kuroringo90/vendor_evolution-priv_keys-template.git" "master"       "vendor/lineage-priv/keys"
+
+# roms-experimental/hardware_xiaomi (fork stale) tiene ancora megvii/: duplica
+# libMegviiFacepp-0.5.2 e libmegface definiti in hardware/lineage/compat -> errore Soong.
+rm -rf hardware/xiaomi/megvii
 echo "Setup complete!"
